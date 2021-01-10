@@ -16,12 +16,20 @@ function Home() {
   );
 }
 
+const About = () => {
+  return (
+    <div id='about'>
+      <p>Never thought it would come to this!</p>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
